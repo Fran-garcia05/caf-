@@ -1,0 +1,181 @@
+.navegacion{
+  font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+html{
+    text-align: center;
+}
+
+.navegacion{
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: #4A3F35;
+}
+
+.navegacion a{
+    padding: 50px;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.navegacion a:hover{
+    color: darkgoldenrod;
+
+}
+
+.fondoimagen{
+    background-image: url(cafefondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 950px;
+    
+}
+
+.fondoimagen h1{
+    text-align: center;
+    color: azure;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 2rem;
+
+}
+
+.fondoimagen h2{
+    text-align: center;
+    color: azure;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    font-size: 1rem;
+}
+
+.tiposcafe img{
+    border-radius: 8px;
+    height: 300px;
+}
+
+
+
+.section-banner h2{
+    font-size: large;
+}
+
+.section-banner h1{
+    font-size: 3rem;
+}
+
+.favoritos h1{
+    text-align: center;
+    color: #4A3F35;
+
+}
+
+
+.apartados{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15rem;
+}
+
+.contenido h3{
+    text-align: center;
+}
+
+
+.contenido p{
+    text-align: center;
+}
+
+.container_input{
+    margin-bottom: 1rem;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.container_input label{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+    font-size: 1rem;
+}
+
+.container_input input, textarea{
+    width: 40%;
+    padding: 1rem;
+    border-radius: 3px;
+
+}
+
+
+.boton{
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #4A3F35;
+    width: 42%;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+}
+.boton:hover{
+    color: #6b5847;
+
+}
+
+.ultimaseccion{
+    background-color: #D4A373;
+}
+
+.ultimaseccion h2{
+    text-align: center;
+    justify-content: center;
+}
+
+main{
+    background-color: #FAF3E0;
+}
+
+footer{
+    background-color: #4A3F35;
+    padding: 1rem;
+    color: white;
+}
+
+footer img{
+    color: aliceblue;
+    width: 2rem;
+    margin: 8px;
+}
+
+@keyframes fadeIn {
+    from{ opacity:0; transform: translateY(-20px); transform: rotate(45deg)}
+    to{ opacity: 1; transform: translateY(0);}
+}
+
+.section-banner h1{
+    animation: fadeIn 2s ease;
+}
+
+
+.tiposcafe:hover{
+    transform: translateY(-8px);
+
+}
+
+footer img:hover{
+    color: aqua;
+    cursor: pointer;
+}
+    
+
